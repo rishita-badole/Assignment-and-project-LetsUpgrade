@@ -1,0 +1,414 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+    height:60px;
+    width:100%;
+    background-color:rgb(153, 122, 122);
+    display:flex;
+    justify-content: center;
+    color:rgba(255, 255, 255, 0.884);
+}
+
+.container{
+    width:90%;
+    /*background-color:pink;*/
+    display: flex;
+}
+
+.header_c{
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo{
+    height:60px;
+    width:15%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    /*background-color: plum;*/
+    line-height: 60px;
+}
+
+.nav{
+    height: 60px;
+    width: 50%;
+    /*background-color: powderblue;*/
+    display: flex;
+}
+
+.nav-item{
+    width:20%;
+    height: 60px;
+    /*background-color: purple;*/
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height:60px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+    color:rgb(153, 122, 122);
+}
+
+.banner{
+    height:600px;
+    width:100%;
+    background-color: rgb(65, 230, 65);
+    background-image: url('images/pexels-anthony-shkraba-4348401.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.overlay{
+    height: 600px;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex;
+    align-items:center;
+    /*margin-left: 40px;*/
+    border-radius: 5px;
+}
+
+.banner_text{
+    height:25px;
+    width:60%;
+    display: flex;
+    align-items: center;
+    }
+
+.banner_title{
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: underline;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pad{
+        font-size: 20px;
+    color: rgba(255, 255, 255, 0.884);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(153, 122, 122,0.7);
+    /*margin-left: 1300px;
+    margin-top: 250px;*/
+}
+
+.btn{
+margin: 5px;
+padding:5px;
+border-radius: 100px;
+ font-size: 15px;
+font-weight:bolder;
+background-color:transparent;
+border-color: white;
+border-width: 5px;
+color:white;
+cursor: pointer;
+transition: 0.3s;
+    }
+
+.btn:hover{
+background-color: rgb(105, 93, 93);
+}
+
+
+.services{
+padding-bottom: 50px;
+padding-top:50px;
+background-color: rgb(153,122,122);
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.services_c{
+    margin-top: 10px;  
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+.service{
+    margin-top:20px;
+    height:200px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.884);
+    display: flex;
+}
+.service_img{
+    height:200px;
+    width:40%;
+    background-color:grey;
+    display: flex;
+    overflow: hidden;
+}
+.service_p{
+    padding:20px;
+}
+
+.service_dtl{
+    width:60%;
+    height:200px;
+    background-color:whitesmoke;
+}
+
+.service_btn{
+    margin: 15px;
+    padding:3px;
+    border-radius: 100px;
+     font-size: 15px;
+    font-weight:bolder;
+    background-color:transparent;
+    border-color: rgba(153, 122, 122,0.7);
+    border-width: 5px;
+    color:rgb(73, 60, 60);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.service_btn:hover{
+    background-color: rgb(153, 122, 122);
+    color: white;
+}
+
+/**about us-----------*/
+
+.aboutus{
+    padding-top: 50px;
+    padding-bottom:50px;
+    background-color:rgb(153, 122, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_c{
+    padding:10px;
+    border: 2px solid white;
+    margin-top: 30px;
+    /*background-color: rgb(65, 230, 65);*/
+    line-height: 30px;
+    text-align: justify;
+    display: inline;
+    color: white;
+}
+
+.text{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+    background-color: rgb(153, 122, 122);
+    display: flex;
+    justify-content: center;
+}
+
+.h_e{
+    Margin:5px;
+    height:180px;
+    width:25%;
+    background-color: rgba(255, 255, 255, 0.884);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 4px;
+}
+
+.gaq{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 100%;
+    background-color:white);
+    display: flex;
+    justify-content: center;
+
+}
+
+.gaq_c{
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(153, 122, 122);
+    color:white;
+}
+
+.portfolio_c{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project{
+    width:25%;
+    height:250px;
+    background-color: yellow;
+}
+
+.project1{
+background-image: url(https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: cover;
+}
+
+.project2{
+    background-image: url(https://images.pexels.com/photos/5199788/pexels-photo-5199788.jpeg?cs=srgb&dl=pexels-louis-5199788.jpg&fm=jpg);
+    background-size: cover;
+    }
+.project3{
+        background-image: url(https://images.pexels.com/photos/336407/pexels-photo-336407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-size: cover;
+        }
+.project4{
+            background-image: url(https://images.pexels.com/photos/459762/pexels-photo-459762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+            background-size: cover;
+            }
+
+.project5{
+                background-image: url(https://images.pexels.com/photos/1540319/pexels-photo-1540319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+                background-size: cover;
+                }
+.project6{
+                    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+                    background-size: cover;
+                    }
+
+.project7{
+                        background-image: url(https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+                        background-size: cover;
+                        }
+
+.project8{
+                            background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+                            background-size: cover;
+                            }
+
+.project_ttl{
+    height:60px;
+    font-size: 20px;
+        color: white;
+    text-align: center;
+    /*margin-top: 40px;*/
+    background-color:rgba(184, 155, 155, 0.795);
+    cursor: pointer;
+}
+
+.project_ttl:hover{
+    height:250px;
+    transition: 0.3s;
+}
+
+.footer{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(153,122,122);
+    justify-content: center;
+}
+
+.footer_c{
+    height:300px;
+    width:25%;
+    background-color:rgb(94, 86, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo{
+
+}
+
+.footer_c1{
+    
+    color:white;
+    font-size: 30px;
+}
+
+li{
+    list-style-type:none ;
+margin-bottom: 10px;
+color:white;
+}
+
+.f1{
+font-size: 22px;
+}
+
+.footer_c4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icon{
+    padding:5px;
+    height:60px;
+    width:50px;
+    background-color: white;
+    margin-left: 5px;
+}
+
+
+.social_c{
+    width:90%;
+}
+
+.si1{
+    background-image: url(images/facebook);
+background-size: cover;
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.si2{
+    background-image: url(images/1298747_instagram_brand_logo_social\ media_icon);
+background-size: cover;
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.si3{
+    background-image: url(images/3377042_gmail_logo_media_social_icon\ \(2\));
+background-size: cover;
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.si4{
+    background-image: url(images/834713_linkedin_icon);
+background-size: cover;
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
